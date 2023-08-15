@@ -20,15 +20,15 @@ const Navbar = () => {
               <AiOutlineHome size={20} className='fill-black-100' />
               <span className='pl-4 text-black-100'>Home</span>
             </a>
-            <a href= '#main' className = 'w-[75%] flex justify-center items-center rounded-full bg-[#CBB682] shadow-[#A08C5B] m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+            <a href= '#projects' className = 'w-[75%] flex justify-center items-center rounded-full bg-[#CBB682] shadow-[#A08C5B] m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
               <GrProjects size={20} className='fill-black-100' />
               <span className='pl-4 text-black-100'>Projects</span>
             </a>
-            <a href= '#main' className = 'w-[75%] flex justify-center items-center rounded-full bg-[#CBB682] shadow-[#A08C5B] m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+            <a href= '#skills' className = 'w-[75%] flex justify-center items-center rounded-full bg-[#CBB682] shadow-[#A08C5B] m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
               <BsPerson size={20} className='fill-black-100' />
               <span className='pl-4 text-black-100'>Skills</span>
             </a>
-            <a href= '#main' className = 'w-[75%] flex justify-center items-center rounded-full bg-[#CBB682] shadow-[#A08C5B] m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+            <a href= '#contact' className = 'w-[75%] flex justify-center items-center rounded-full bg-[#CBB682] shadow-[#A08C5B] m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
               <AiOutlineMail size={20} className='fill-black-100' />
               <span className='pl-4 text-black-100'>Get in Touch</span>
             </a>
@@ -38,8 +38,23 @@ const Navbar = () => {
           ''
         )}
 
-        <div>
-          <div></div>
+        <div className='md:block hidden fixed top-[25%] z-10'>
+          <div className='flex flex-col'>
+            <a href='#main' className='rounded-full bg-[#CBB682] shadow-[#A08C5B] m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+              <AiOutlineHome size={20} />
+            </a>
+            <a href='#projects' className='rounded-full bg-[#CBB682] shadow-[#A08C5B] m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+              <GrProjects size={20} />
+            </a>
+            <a href='#skills' className='rounded-full bg-[#CBB682] shadow-[#A08C5B] m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+              <BsPerson size={20} />
+            </a>
+            <a href='#contact' className='rounded-full bg-[#CBB682] shadow-[#A08C5B] m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+              <AiOutlineMail size={20} />
+            </a>
+            
+
+          </div>
         </div>
     </div>
   )
