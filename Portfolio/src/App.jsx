@@ -1,13 +1,16 @@
 import React from 'react'
-import { Navbar, Main } from './components'
+import { Navbar, Main, Projects, Skills, Contact } from './components'
 import './App.css'
 
 
 const App = () => {
   return (
-    <div>
+    <div className='bg-black'>
       <Navbar />
       <Main />
+      <Projects />
+      <Skills />
+      <Contact />
     </div>
   )
 }
