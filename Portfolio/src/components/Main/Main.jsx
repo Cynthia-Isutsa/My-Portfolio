@@ -26,7 +26,7 @@ const Main = () => {
           />
           </h2>
           <h5 className = 'text-[#77725f] flex sm:text-2xl text-2xl pt-5 flex-col justify-center items-center text-center'>I am a full-stack developer based in Nairobi, Kenya. 
-            I have used React, MongoDB and Express to build stunning and scalable web applications that delight users and drive results. 
+            I have used React,Postgresql, firebase and Express to build stunning and scalable web applications that delight users and drive results. 
             Reach Out for us to develop something great together. </h5>
           
           <div className = 'flex justify-between pt-10 max-w-[200px] w-full'>
@@ -36,7 +36,7 @@ const Main = () => {
             <a href='https://github.com/Cynthia-Isutsa' target='_blank'>
                 <FaGithub size={20} className ='cursor-pointer fill-[#a89d74]'/>
             </a>
-            <a href='https://github.com/Cynthia-Isutsa' target='_blank'>
+            <a href='https://twitter.com/Nisutsa?t=D-4jGXK5T1vBzc8idO8lGg&s=08' target='_blank'>
                 <FaTwitter size={20} className ='cursor-pointer fill-[#a89d74]'/>
             </a>
             <a href='https://wa.me/+254727035487' target='_blank'>

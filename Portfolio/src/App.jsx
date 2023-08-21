@@ -1,6 +1,5 @@
 import React from 'react'
 import { Navbar, Main, Projects, Skills, Contact, Footer } from './components'
-import './App.css'
 
 
 const App = () => {
