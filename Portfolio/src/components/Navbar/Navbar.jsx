@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { AiOutlineMenu, AiOutlineHome, AiOutlineMail } from 'react-icons/ai'
 import { GrProjects } from 'react-icons/gr'
-import { BsPerson } from 'react-icons/bs'
+import { GiSkills } from 'react-icons/gi'
 
 const Navbar = () => {
 
@@ -16,19 +16,27 @@ const Navbar = () => {
       {
         nav ? (
           <div className ='fixed w-full h-screen bg-black/90 flex flex-col justify-center items-center z-20 '> 
-            <a href= '#main' className = 'w-[75%] flex justify-center items-center rounded-full bg-[#CBB682] shadow-[#A08C5B] m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+            <a onClick = {handleNav}
+             href= '#main' 
+              className = 'w-[75%] flex justify-center items-center rounded-full bg-[#CBB682] shadow-[#A08C5B] m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
               <AiOutlineHome size={20} className='fill-black-100' />
               <span className='pl-4 text-black-100'>Home</span>
             </a>
-            <a href= '#projects' className = 'w-[75%] flex justify-center items-center rounded-full bg-[#CBB682] shadow-[#A08C5B] m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+            <a onClick = {handleNav}
+              href= '#projects' 
+              className = 'w-[75%] flex justify-center items-center rounded-full bg-[#CBB682] shadow-[#A08C5B] m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
               <GrProjects size={20} className='fill-black-100' />
               <span className='pl-4 text-black-100'>Projects</span>
             </a>
-            <a href= '#skills' className = 'w-[75%] flex justify-center items-center rounded-full bg-[#CBB682] shadow-[#A08C5B] m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
-              <BsPerson size={20} className='fill-black-100' />
+            <a onClick = {handleNav}
+              href= '#skills' 
+              className = 'w-[75%] flex justify-center items-center rounded-full bg-[#CBB682] shadow-[#A08C5B] m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+              <GiSkills size={20} className='fill-black-100' />
               <span className='pl-4 text-black-100'>Skills</span>
             </a>
-            <a href= '#contact' className = 'w-[75%] flex justify-center items-center rounded-full bg-[#CBB682] shadow-[#A08C5B] m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+            <a onClick = {handleNav}
+              href= '#contact' 
+              className = 'w-[75%] flex justify-center items-center rounded-full bg-[#CBB682] shadow-[#A08C5B] m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
               <AiOutlineMail size={20} className='fill-black-100' />
               <span className='pl-4 text-black-100'>Get in Touch</span>
             </a>
@@ -47,7 +55,7 @@ const Navbar = () => {
               <GrProjects size={20} />
             </a>
             <a href='#skills' className='rounded-full bg-[#CBB682] shadow-[#A08C5B] m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-              <BsPerson size={20} />
+              <GiSkills size={20} />
             </a>
             <a href='#contact' className='rounded-full bg-[#CBB682] shadow-[#A08C5B] m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
               <AiOutlineMail size={20} />
