@@ -28,10 +28,10 @@ const Skills = () => {
           <div className='flex flex-row flex-start items-start'>
             <div className='m-7'>
               <Item title1='PostGres' level1='Advanced'/>
-              <Item title1='Firebase' level1= 'Proficient' />
+              <Item title1='Node.js' level1= 'Proficient' />
             </div>
             <div className='m-7'>
-              <Item title1='Next.js' level1= 'Proficient' />
+              <Item title1='Express' level1= 'Proficient' />
             </div>
           </div>
         </div>

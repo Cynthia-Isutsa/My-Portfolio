@@ -11,7 +11,7 @@ const Projects = () => {
       <ProjectItem title='Alchemist Bar' description='Description: This is a client restaurant app' technologies='Technologies:  React REST Github' status='Status:  Completed' code='https://github.com/Cynthia-Isutsa/Alchemist-Bar-Recreation'/>
       <ProjectItem title ='Darshing' description='Description: This is a web based e-commerce app' technologies='Technologies:  React Tailwind Github' status='Status: In Progress' code='https://github.com/Cynthia-Isutsa/Darshing-E-commerce-site'/>
       <ProjectItem title ='Latex Foods' description='Description: This is a food ordering app' technologies='Technologies: Tailwind, Next.js, React, Node.js, Firebase' status='Status:  In Progress' code='https://github.com/Cynthia-Isutsa/Latex-Food-Ordering-App'/>
-      <ProjectItem title= 'chatGPT3 App' description='Description: This is a chatGPT3 clone' technologies='Technologies:  React Github' status='Status:  Completed' code='https://github.com/Cynthia-Isutsa/chat-gpt-3-clone'/>
+      <ProjectItem title= 'chatGPT3 App' description='Description: This is a chatGPT3 clone' technologies='Technologies:  React Github' status='Status:  Completed' code='https://chat-gpt3clone.netlify.app/'/>
     </div>
     
     </div>

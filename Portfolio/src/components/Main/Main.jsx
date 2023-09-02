@@ -25,8 +25,8 @@ const Main = () => {
               repeat={Infinity}
           />
           </h2>
-          <h5 className = 'text-[#77725f] flex sm:text-2xl text-2xl pt-5 flex-col justify-center items-center text-center'>I am a full-stack developer based in Nairobi, Kenya. 
-            I have used React,Postgresql, firebase and Express to build stunning and scalable web applications that delight users and drive results. 
+          <h5 className = 'text-[#77725f] flex sm:text-2xl text-2xl pt-5 flex-col justify-center items-center text-center'>I am a MERN stack developer based in Nairobi, Kenya. 
+            I have used React,Postgresql, firebase, Node.js and Express to build stunning and scalable web applications that delight users and drive results. 
             Reach Out for us to develop something great together. </h5>
           
           <div className = 'flex justify-between pt-10 max-w-[200px] w-full'>
