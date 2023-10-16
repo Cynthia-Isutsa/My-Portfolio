@@ -1,15 +1,13 @@
-import Navbar from "./Navbar/Navbar"
+import Navbar1 from "./Navbar/Navbar1"
 import Main from "./Main/Main"
 import Projects from "./Projects/Projects"
 import Skills from './Skills/Skills'
-import Contact from './Contact/Contact'
 import Footer from './Footer/Footer'
 
 export {
-    Navbar,
+    Navbar1,
     Main,
     Projects,
     Skills,
-    Contact,
     Footer
 }
