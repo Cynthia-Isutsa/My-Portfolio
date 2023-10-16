@@ -8,10 +8,10 @@ const Projects = () => {
       <p className='text-center mt-1 mb-5 sm:text-sm text-[#CBB682]'>Freelance || Independent projects</p>
     
     <div className='grid sm:grid-cols-2 gap-12'>
-      <ProjectItem title='Alchemist Bar' description='Description: This is a client restaurant app' technologies='Technologies:  React REST Github' status='Status:  Completed' code='https://github.com/Cynthia-Isutsa/Alchemist-Bar-Recreation'/>
-      <ProjectItem title ='Darshing' description='Description: This is a web based e-commerce app' technologies='Technologies:  React Tailwind Github' status='Status: In Progress' code='https://github.com/Cynthia-Isutsa/Darshing-E-commerce-site'/>
-      <ProjectItem title ='Latex Foods' description='Description: This is a food ordering app' technologies='Technologies: Tailwind, Next.js, React, Node.js, Firebase' status='Status:  In Progress' code='https://github.com/Cynthia-Isutsa/Latex-Food-Ordering-App'/>
-      <ProjectItem title= 'chatGPT3 App' description='Description: This is a chatGPT3 clone' technologies='Technologies:  React Github' status='Status:  Completed' code='https://chat-gpt3clone.netlify.app/'/>
+      <ProjectItem title='Alchemist Bar' description='Description: This is a client restaurant app' technologies='Technologies:  React Tailwind Github' status='Status:  Completed' code='https://github.com/Cynthia-Isutsa/Alchemist-Bar-Recreation'/>
+      <ProjectItem title ='CodeKe Blog' description='Description: This is a blog site' technologies='Technologies:  React Next.js Tailwind Typescript Strapi Github' status='Status: Completed' code='https://github.com/Cynthia-Isutsa/TaliiKe-Blog'/>
+      <ProjectItem title ='Barbra-Portfolio' description="Description: This is a client's copywriting portfolio site" technologies='Technologies: Next.js, Tailwind, Typescript, React' status='Status:  Completed' code='https://github.com/Cynthia-Isutsa/Barbra-Portfolio'/>
+      <ProjectItem title= 'Maganji.co' description='Description: A budgeting app with budgeting principles' technologies='Technologies:  React, Redux, Tailwind, Github' status='Status:  In progress' code='https://github.com/Cynthia-Isutsa/Maganji.co'/>
     </div>
     
     </div>
