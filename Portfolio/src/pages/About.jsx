@@ -14,15 +14,14 @@ const About = () => {
         <div className='bg-gray-500 z-0'>
             <img src ={pic} alt = 'image' className='z-10 shadow-xl shadow-gray-400' />
         </div>
-        <div className='bg-gray-600 h-[400px] p-3 max-w-[500px] flex-initial'>
-            <h1 className='text-[#202113] text-2xl font-semibold '>Isutsa: A coffee powered web development enthusiast</h1>
-            <p className='text-[#899921] font-bold text-lg'>Home: <span className='font-normal'>Nairobi, Kenya</span></p>
-            <p className='text-[#899921] font-bold text-lg'>Home: <span className='font-normal'>Nairobi, Kenya</span></p>
-            <p className='text-[#899921] font-bold text-lg'>My Why: <span className='font-normal'>My Family</span></p>
-            <p className='text-[#899921] font-bold text-lg'>Home: <span className='font-normal'>Nairobi, Kenya</span></p>
-            <p className='text-[#899921] font-bold text-lg'>Home: <span className='font-normal'>Nairobi, Kenya</span></p>
-            <p className='text-[#899921] font-bold text-lg'>Home: <span className='font-normal'>Nairobi, Kenya</span></p>
-            <p className='text-[#899921] font-bold text-lg'>Home: <span className='font-normal'>Nairobi, Kenya</span></p>
+        <div className='bg-gray-400 h-[400px] p-3 max-w-[500px] flex-initial'>
+            <h1 className='text-black text-3xl font-bold mb-4'>Isutsa: A coffee powered web development enthusiast</h1>
+            <p className='text-[#0D0D0D] font-bold text-xl mb-2'>Home: <span className='font-normal'>Nairobi, Kenya</span></p>
+            <p className='text-[#0D0D0D] font-bold text-xl mb-2'>My Why: <span className='font-normal'>My Family, young brother Austine</span></p>
+            <p className='text-[#0D0D0D] font-bold text-xl mb-2'>Favourite frameworks: <span className='font-normal'>React, Django</span></p>
+            <p className='text-[#0D0D0D] font-bold text-xl mb-2'>First Degree: <span className='font-normal'>Bcorm(Accounts)</span></p>
+            <p className='text-[#0D0D0D] font-bold text-xl mb-2'>Quote: <span className='font-normal'>Consistency is the last refuge for the unimaginative. Oscar Wilde.</span></p>
+            <p className='text-[#0D0D0D] font-bold text-xl mb-2'>Hobby: <span className='font-normal'>Being a nerd with my favourite book.</span></p>
         </div>
       </div>
       <Resume />
