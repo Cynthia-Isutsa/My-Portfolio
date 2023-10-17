@@ -10,18 +10,18 @@ const About = () => {
       <div className='bg-[#0D0D0D] h-[150px]'>
           <h1 className = 'text-[#FAFBE9] text-4xl text-center pt-10 italic'>Get to know me!!!</h1>
       </div>
-      <div className='flex flex-1 flex-row md:gap-8 justify-between items-center mx-8 md:mx-20 my-10'>
-        <div className='bg-gray-500 z-0'>
-            <img src ={pic} alt = 'image' className='z-10 shadow-xl shadow-gray-400' />
+      <div className='flex flex-col md:flex-row md:gap-8 justify-between items-center mx-8 md:mx-20 my-10'>
+        <div className=' flex-1'>
+            <img src ={pic} alt = 'image' className='z-10 shadow-xl shadow-gray-400 max-md:mb-5' />
         </div>
-        <div className='bg-gray-400 h-[400px] p-3 max-w-[500px] flex-initial'>
-            <h1 className='text-black text-3xl font-bold mb-4'>Isutsa: A coffee powered web development enthusiast</h1>
-            <p className='text-[#0D0D0D] font-bold text-xl mb-2'>Home: <span className='font-normal'>Nairobi, Kenya</span></p>
-            <p className='text-[#0D0D0D] font-bold text-xl mb-2'>My Why: <span className='font-normal'>My Family, young brother Austine</span></p>
-            <p className='text-[#0D0D0D] font-bold text-xl mb-2'>Favourite frameworks: <span className='font-normal'>React, Django</span></p>
-            <p className='text-[#0D0D0D] font-bold text-xl mb-2'>First Degree: <span className='font-normal'>Bcorm(Accounts)</span></p>
-            <p className='text-[#0D0D0D] font-bold text-xl mb-2'>Quote: <span className='font-normal'>Consistency is the last refuge for the unimaginative. Oscar Wilde.</span></p>
-            <p className='text-[#0D0D0D] font-bold text-xl mb-2'>Hobby: <span className='font-normal'>Being a nerd with my favourite book.</span></p>
+        <div className='bg-gray-400 md:h-[400px] p-3 max-w-[500px] flex-1'>
+            <h1 className='text-black text-2xl md:text-3xl font-bold md:mb-4'>Isutsa: A coffee powered web development enthusiast</h1>
+            <p className='text-[#0D0D0D] font-bold md:text-xl md:mb-2'>Home: <span className='font-normal'>Nairobi, Kenya</span></p>
+            <p className='text-[#0D0D0D] font-bold md:text-xl nd:mb-2'>My Why: <span className='font-normal'>My Family, young brother Austine</span></p>
+            <p className='text-[#0D0D0D] font-bold md:text-xl md:mb-2'>Favourite frameworks: <span className='font-normal'>React, Django</span></p>
+            <p className='text-[#0D0D0D] font-bold md:text-xl md:mb-2'>First Degree: <span className='font-normal'>Bcorm(Accounts)</span></p>
+            <p className='text-[#0D0D0D] font-bold md:text-xl md:mb-2'>Quote: <span className='font-normal'>Consistency is the last refuge for the unimaginative. ~ Oscar Wilde.</span></p>
+            <p className='text-[#0D0D0D] font-bold md:text-xl md:mb-2'>Hobby: <span className='font-normal'>Being a nerd with my favourite book.</span></p>
         </div>
       </div>
       <Resume />

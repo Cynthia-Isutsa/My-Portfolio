@@ -6,8 +6,8 @@ import { FaLinkedin, FaGithub, FaTwitter, FaWhatsapp} from 'react-icons/fa'
 
 const Main = () => {
   return (
-    <div id='main' className ='bg-black/90 w-full h-screen flex'>
-      <div className='w-full h-screen absolute top-0 left-0 bg-black/30'>
+    <div className ='bg-black/90 flex justify-center items-center'>
+      <div className=' bg-black/30 mt-40 mb-28'>
         <div className= 'max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg::items-start items-center'>
   
           <h1 className = 'text-[#fafbe9] sm:text-5xl text-4xl font-bold'>I'm Isutsa Cynthia</h1>
