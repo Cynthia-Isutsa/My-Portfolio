@@ -8,7 +8,7 @@ const ProjectItem = ({title, description, technologies, status, code}) => {
             <p className='text-gray-400 text-lg'>{description}</p>
             <p className='text-gray-400 pb-3 pt-3 text-lg'>{technologies}</p>
             <p className='text-gray-400 text-1xl'>{status}</p>
-            <button type='button' className='bg-[#899921] m-6 rounded-lg pt-2 pb-2 pl-3 pr-3 text-lg font-[500] text-center cursor-pointer hover:scale-110 ease-in duration-200'><a href={code} target='_blank'>More Info</a></button>       
+            {/* <button type='button' className='bg-[#899921] m-6 rounded-lg pt-2 pb-2 pl-3 pr-3 text-lg font-[500] text-center cursor-pointer hover:scale-110 ease-in duration-200'><a href={code} target='_blank'>More Info</a></button>        */}
         </div> 
     </div>
   )

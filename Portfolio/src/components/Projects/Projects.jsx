@@ -8,7 +8,7 @@ const Projects = () => {
       <p className='text-center mt-1 mb-5 sm:text-sm text-gray-400'>Freelance || Independent projects</p>
     
     <div className='grid sm:grid-cols-2 gap-12'>
-      <ProjectItem title='Alchemist Bar' description='Description: This is a client restaurant app' technologies='Technologies:  React Tailwind Github' status='Status:  Completed' code='https://github.com/Cynthia-Isutsa/Alchemist-Bar-Recreation'/>
+      <ProjectItem title='Minet Software' description='Description: This is an insurance claim processin app' technologies='Technologies:  React Tailwind Azure AntDesign' status='As a frontend dev, my work involves design, develop, and maintain features for software applications. Manage time tracking, priorities, and deliverables. Debug/troubleshoot applications and determine optimal fix'  />
       <ProjectItem title ='CodeKe Blog' description='Description: This is a blog site' technologies='Technologies:  React Next.js Tailwind Typescript Strapi Github' status='Status: Completed' code='https://github.com/Cynthia-Isutsa/TaliiKe-Blog'/>
       <ProjectItem title ='Barbra-Portfolio' description="Description: This is a client's copywriting portfolio site" technologies='Technologies: Next.js, Tailwind, Typescript, React' status='Status:  Completed' code='https://github.com/Cynthia-Isutsa/Barbra-Portfolio'/>
       <ProjectItem title= 'Maganji.co' description='Description: A budgeting application' technologies='Technologies:  React, Redux, Tailwind, Github' status='Status:  In progress' code='https://github.com/Cynthia-Isutsa/Maganji.co'/>
