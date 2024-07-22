@@ -34,8 +34,8 @@ const Main = () => {
             extensive experience in React, TypeScript, NodeJS, and Azure, and I
             am always eager to dive into new challenges. I thrive in
             collaborative Agile environments but can also hit the ground running
-            on solo projects. Let's
-            build something amazing together!
+            on solo projects. Let's build something amazing together! <br />
+             Reach out on (0727035487)
           </h5>
 
           <div className="flex justify-between pt-10 max-w-[200px] w-full">
@@ -43,19 +43,19 @@ const Main = () => {
               href="https://www.linkedin.com/in/cynthia-isutsa-2b282220b/"
               target="_blank"
             >
-              <FaLinkedin size={20} className="cursor-pointer fill-[#fafbe9]" />
+              <FaLinkedin size={33} className="cursor-pointer fill-[#fafbe9]" />
             </a>
             <a href="https://github.com/Cynthia-Isutsa" target="_blank">
-              <FaGithub size={20} className="cursor-pointer fill-[#fafbe9]" />
+              <FaGithub size={33} className="cursor-pointer fill-[#fafbe9]" />
             </a>
             <a
               href="https://twitter.com/Nisutsa?t=D-4jGXK5T1vBzc8idO8lGg&s=08"
               target="_blank"
             >
-              <FaTwitter size={20} className="cursor-pointer fill-[#fafbe9]" />
+              <FaTwitter size={33} className="cursor-pointer fill-[#fafbe9]" />
             </a>
             <a href="https://wa.me/+254727035487" target="_blank">
-              <FaWhatsapp size={20} className="cursor-pointer fill-[#fafbe9]" />
+              <FaWhatsapp size={33} className="cursor-pointer fill-[#fafbe9]" />
             </a>
           </div>
         </div>
